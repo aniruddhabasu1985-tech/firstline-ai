@@ -1,0 +1,32 @@
+[
+ [
+  "our nightly refresh never kicks off since we patched the box",
+  "on_prem",
+  "KB-1001"
+ ],
+ [
+  "sign-in page loops back, identity provider changed keys",
+  "any",
+  "KB-1003"
+ ],
+ [
+  "snowflake-type warehouse pull dies at the 5 minute mark",
+  "cloud",
+  "KB-1005"
+ ],
+ [
+  "some records vanish when headers have accents like é",
+  "cloud",
+  "JIRA-4411"
+ ],
+ [
+  "setup wizard rolls back at the end",
+  "on_prem",
+  "KB-1006"
+ ],
+ [
+  "personal access token expired automated flow broken",
+  "cloud",
+  "KB-1008"
+ ]
+]

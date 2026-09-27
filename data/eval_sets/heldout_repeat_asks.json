@@ -1,0 +1,30 @@
+[
+ [
+  [
+   "fiddler trace"
+  ],
+  "Thanks for the HAR file. Could you also grab the server logs?",
+  false
+ ],
+ [
+  [
+   "server logs"
+  ],
+  "Could you re-send the service log from the worker node?",
+  true
+ ],
+ [
+  [
+   "product version"
+  ],
+  "Which build number are you running?",
+  true
+ ],
+ [
+  [
+   "screenshot"
+  ],
+  "I reviewed the screenshot you shared; the error points to the proxy.",
+  false
+ ]
+]

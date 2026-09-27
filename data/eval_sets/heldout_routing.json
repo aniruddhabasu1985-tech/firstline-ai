@@ -1,0 +1,56 @@
+[
+ [
+  "Connexion refusée au serveur depuis ce matin",
+  "FR",
+  "Nous ne pouvons pas nous connecter, merci de nous aider.",
+  3,
+  false,
+  "server",
+  "L1-EMEA-EN"
+ ],
+ [
+  "Query about our invoice and license true-up",
+  "US",
+  "Finance asked about the invoice.",
+  4,
+  false,
+  "licensing",
+  "LICENSING"
+ ],
+ [
+  "Workflow fails in Portuguese locale",
+  "BR",
+  "O fluxo falha ao executar no servidor.",
+  3,
+  false,
+  "server",
+  "L1-AMER-EN"
+ ],
+ [
+  "Server slow",
+  "IN",
+  "slow since yesterday",
+  3,
+  false,
+  "server",
+  "L1-APAC-EN"
+ ],
+ [
+  "Help with renewing the SSL cert on our server",
+  "US",
+  "Our certificate renewal broke login.",
+  3,
+  false,
+  "server",
+  "L1-AMER-EN"
+ ],
+ [
+  "Datenexport fehlerhaft",
+  "AT",
+  "Der Export ist nicht vollständig und die Werte fehlen.",
+  3,
+  false,
+  "connectors",
+  "L1-EMEA-DE"
+ ]
+]

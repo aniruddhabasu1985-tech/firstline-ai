@@ -1,0 +1,22 @@
+[
+ [
+  "har",
+  "{\"entries\":[{\"response\":{\"status\":503}}]}",
+  null
+ ],
+ [
+  "server",
+  "2026-09-02 ERROR java.lang.OutOfMemoryError: Java heap space",
+  "MEMORY_OOM"
+ ],
+ [
+  "connector",
+  "[Microsoft][ODBC Driver Manager] Data source name not found (IM002)",
+  "ODBC_IM002"
+ ],
+ [
+  "eventlog",
+  "Event 7000: The Worker service failed to start: Logon failure",
+  null
+ ]
+]

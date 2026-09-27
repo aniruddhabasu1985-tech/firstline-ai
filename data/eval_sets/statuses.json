@@ -1,0 +1,58 @@
+[
+ [
+  "I am checking this with our internal team and will update you.",
+  false,
+  false,
+  "Pending Customer",
+  "Pending Internal"
+ ],
+ [
+  "Could you please share the event logs from the server?",
+  false,
+  false,
+  "Pending Customer",
+  "Pending Customer"
+ ],
+ [
+  "I am checking this with our engineering team.",
+  false,
+  false,
+  "Pending Internal",
+  "Pending Internal"
+ ],
+ [
+  "We will keep this on hold until you are back from vacation as requested.",
+  true,
+  false,
+  "Hold",
+  "Hold"
+ ],
+ [
+  "Let me review the trace internally.",
+  false,
+  false,
+  "Hold",
+  "Pending Internal"
+ ],
+ [
+  "We have confirmed this is a product defect and logged it with engineering.",
+  false,
+  true,
+  "Accepted Defect",
+  "Accepted Defect"
+ ],
+ [
+  "We have confirmed this is a product defect.",
+  false,
+  false,
+  "Accepted Defect",
+  "Pending Internal"
+ ],
+ [
+  "Please try the workaround and let us know the result.",
+  false,
+  false,
+  "Pending Internal",
+  "Pending Customer"
+ ]
+]

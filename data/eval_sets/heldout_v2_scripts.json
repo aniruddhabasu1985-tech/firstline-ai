@@ -1,0 +1,10 @@
+[
+ ["Get-ChildItem D:\\Exports -Filter *.csv | Remove-Item", "BLOCK"],
+ ["rm /var/app/cache/*.tmp", "BLOCK"],
+ ["Set-Content -Path C:\\App\\config.xml -Value $newConfig", "REVIEW"],
+ ["Get-Process | Sort-Object CPU -Descending | Select-Object -First 5", "ALLOW"],
+ ["SELECT job_id, status FROM schedules WHERE status = 'queued';", "ALLOW"],
+ ["import os\nfor f in os.listdir('/data'): os.remove('/data/' + f)", "BLOCK"],
+ ["Invoke-Sqlcmd -Query \"ALTER TABLE jobs ADD retry INT\"", "REVIEW"],
+ ["tail -n 200 /var/log/app/worker.log | grep ERROR", "ALLOW"]
+]

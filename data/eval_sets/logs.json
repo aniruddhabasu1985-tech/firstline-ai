@@ -1,0 +1,57 @@
+[
+ [
+  "har",
+  "{\"entries\":[{\"request\":{\"url\":\"https://srv/api/jobs\"},\"response\":{\"status\":407}}]}",
+  "PROXY_AUTH_407"
+ ],
+ [
+  "har",
+  "{\"entries\":[{\"request\":{\"url\":\"https://srv/api/jobs\"},\"response\":{\"status\":401}}]}",
+  "AUTH_401"
+ ],
+ [
+  "powershell",
+  "Start-Service : Service 'Worker' cannot be started. Access is denied.",
+  "ACCESS_DENIED"
+ ],
+ [
+  "msi",
+  "MSI (s) (1C:2C) Product: Automation Server -- Installation failed. Error 1603.",
+  "MSI_1603"
+ ],
+ [
+  "connector",
+  "[ODBC Driver Manager] Data source name not found and no default driver specified (IM002)",
+  "ODBC_IM002"
+ ],
+ [
+  "connector",
+  "ORA-12154: TNS:could not resolve the connect identifier specified",
+  "ORA_12154"
+ ],
+ [
+  "server",
+  "2026-09-01 ERROR SAML response signature validation failed for issuer",
+  "SAML_SIGNATURE"
+ ],
+ [
+  "server",
+  "2026-09-01 WARN Worker memory usage 15.2GB exceeds threshold; OutOfMemoryException",
+  "MEMORY_OOM"
+ ],
+ [
+  "connector",
+  "java.net.SocketTimeoutException: Read timed out after 300000 ms",
+  "READ_TIMEOUT"
+ ],
+ [
+  "eventlog",
+  "Schannel Event 36887: A fatal alert was received from the remote endpoint. TLS alert code 48",
+  "TLS_HANDSHAKE"
+ ],
+ [
+  "server",
+  "2026-09-01 INFO All services healthy",
+  null
+ ]
+]

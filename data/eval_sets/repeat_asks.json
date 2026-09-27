@@ -1,0 +1,59 @@
+[
+ [
+  [
+   "fiddler trace",
+   "screenshot"
+  ],
+  "Could you please share a Fiddler trace so we can check the traffic?",
+  true
+ ],
+ [
+  [
+   "server logs"
+  ],
+  "Please send the server logs and the product version.",
+  true
+ ],
+ [
+  [
+   "product version",
+   "server logs"
+  ],
+  "Thanks, we are reviewing the logs you shared. We will update you shortly.",
+  false
+ ],
+ [
+  [],
+  "Please share a screenshot of the error.",
+  false
+ ],
+ [
+  [
+   "powershell output"
+  ],
+  "Can you run the command again and send the PowerShell output?",
+  true
+ ],
+ [
+  [
+   "workflow file"
+  ],
+  "Kindly attach the workflow so we can reproduce.",
+  true
+ ],
+ [
+  [
+   "screenshot"
+  ],
+  "Could you share the connector log?",
+  false
+ ],
+ [
+  [
+   "connector log",
+   "product version"
+  ],
+  "Please confirm which version you are on.",
+  true
+ ]
+]

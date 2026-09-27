@@ -1,0 +1,18 @@
+[
+ [
+  "Please do the needful at the earliest.",
+  [
+   "non_native_phrasing"
+  ]
+ ],
+ [
+  "Great question! Here are a few things that might help: clear your cache, update to the latest version, and contact your administrator.",
+  [
+   "generic_ai_text"
+  ]
+ ],
+ [
+  "The HAR you sent shows a 503 from the load balancer, so the request never reaches the server. Can your network team check the health probe?",
+  []
+ ]
+]

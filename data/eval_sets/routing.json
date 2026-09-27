@@ -1,0 +1,110 @@
+[
+ [
+  "Scheduled jobs are stuck in queued state on our server",
+  "US",
+  "Our jobs are stuck since the upgrade.",
+  3,
+  false,
+  "server",
+  "L1-AMER-EN"
+ ],
+ [
+  "Die Verbindung zum Data Warehouse bricht ab",
+  "DE",
+  "Die Verbindung bricht nach 5 Minuten ab, bitte helfen Sie uns.",
+  3,
+  false,
+  "connectors",
+  "L1-EMEA-DE"
+ ],
+ [
+  "接続がタイムアウトします",
+  "JP",
+  "サーバーへの接続がタイムアウトします。",
+  3,
+  false,
+  "server",
+  "L1-APAC-JA"
+ ],
+ [
+  "El conector ODBC no encuentra el origen de datos",
+  "ES",
+  "El conector ODBC falla con un error de origen de datos.",
+  4,
+  false,
+  "connectors",
+  "L1-EMEA-ES"
+ ],
+ [
+  "Production server down, all schedules failing",
+  "US",
+  "Everything is down for our whole company.",
+  1,
+  false,
+  "server",
+  "CORE-SEV1"
+ ],
+ [
+  "Slow workflow opening in the desktop client",
+  "AU",
+  "The client takes ages to open large workflows.",
+  4,
+  false,
+  "client",
+  "L1-APAC-EN"
+ ],
+ [
+  "Need to renew our subscription and add 10 seats",
+  "GB",
+  "We want to renew and add seats before quarter end.",
+  4,
+  false,
+  "licensing",
+  "LICENSING"
+ ],
+ [
+  "SSO login broken after certificate change",
+  "FR",
+  "Our users cannot log in since yesterday.",
+  2,
+  true,
+  "server",
+  "CORE-PREMIUM"
+ ],
+ [
+  "License key not activating on new laptop",
+  "IN",
+  "Activation fails with invalid key on a new machine.",
+  4,
+  false,
+  "licensing",
+  "LICENSING"
+ ],
+ [
+  "Proxy 407 error when connecting client to server",
+  "CA",
+  "We get a 407 error through our corporate proxy.",
+  3,
+  false,
+  "client",
+  "L1-AMER-EN"
+ ],
+ [
+  "Connector drops rows with special characters",
+  "SG",
+  "Some rows are missing when we extract.",
+  3,
+  false,
+  "connectors",
+  "L1-APAC-EN"
+ ],
+ [
+  "Installer error 1603",
+  "NL",
+  "The install fails with 1603.",
+  3,
+  false,
+  "server",
+  "L1-EMEA-EN"
+ ]
+]

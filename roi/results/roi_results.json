@@ -1,0 +1,207 @@
+{
+  "scenarios": {
+    "conservative": {
+      "scenario": "conservative",
+      "l1_cases_per_month": 700,
+      "ai_cost_per_case_usd": 0.0836,
+      "net_freed_l1_fte": 0.99,
+      "levers_monthly": {
+        "elevation_cost_avoided": 5250.0,
+        "core_swarm_time_saved": 2731.64,
+        "l1_capacity_value_realized": 1980.74,
+        "script_incidents_avoided": 1666.67,
+        "retention_upside": 0.0
+      },
+      "run_cost_monthly": 3558.53,
+      "one_time_cost": 105000,
+      "client_net_benefit_monthly": 8070.52,
+      "client_net_benefit_annual": 96846.27,
+      "payback_months": 13.01,
+      "roi_year1_pct": -7.77,
+      "three_year_net_usd": 185538.8,
+      "fte_model": {
+        "provider_monthly_revenue": 76000,
+        "provider_monthly_margin": 22800,
+        "freed_fte_equivalent": 1.12,
+        "provider_revenue_at_risk_if_cut": 3961.48,
+        "recommended_ai_enablement_fee_monthly": 4448.0,
+        "client_net_monthly_with_fee": 7181.05,
+        "client_payback_months_on_share": 7.3,
+        "provider_monthly_gain_headcount_held": 889.47,
+        "provider_payback_months_on_share": 59.0
+      },
+      "per_case_model": {
+        "parity_price_per_case": 80.0,
+        "unit_cost_before": 56.0,
+        "unit_cost_after": 51.94,
+        "price_after_gainshare": 77.97,
+        "provider_margin_monthly_before": 16800.0,
+        "provider_margin_monthly_after": 18404.81,
+        "client_total_support_cost_before": 102593.75,
+        "client_total_support_cost_after": 93735.29,
+        "client_monthly_saving": 8858.46,
+        "provider_monthly_margin_gain": 1604.81,
+        "client_payback_months_on_share": 5.9,
+        "provider_payback_months_on_share": null
+      }
+    },
+    "base": {
+      "scenario": "base",
+      "l1_cases_per_month": 700,
+      "ai_cost_per_case_usd": 0.0836,
+      "net_freed_l1_fte": 1.86,
+      "levers_monthly": {
+        "elevation_cost_avoided": 10500.0,
+        "core_swarm_time_saved": 4675.78,
+        "l1_capacity_value_realized": 5569.57,
+        "script_incidents_avoided": 3333.33,
+        "retention_upside": 0.0
+      },
+      "run_cost_monthly": 3558.53,
+      "one_time_cost": 105000,
+      "client_net_benefit_monthly": 20520.15,
+      "client_net_benefit_annual": 246241.85,
+      "payback_months": 5.12,
+      "roi_year1_pct": 134.52,
+      "three_year_net_usd": 633725.55,
+      "fte_model": {
+        "provider_monthly_revenue": 76000,
+        "provider_monthly_margin": 22800,
+        "freed_fte_equivalent": 2.1,
+        "provider_revenue_at_risk_if_cut": 7426.09,
+        "recommended_ai_enablement_fee_monthly": 4448.0,
+        "client_net_monthly_with_fee": 19630.68,
+        "client_payback_months_on_share": 2.7,
+        "provider_monthly_gain_headcount_held": 889.47,
+        "provider_payback_months_on_share": 59.0
+      },
+      "per_case_model": {
+        "parity_price_per_case": 80.0,
+        "unit_cost_before": 56.0,
+        "unit_cost_after": 48.78,
+        "price_after_gainshare": 76.39,
+        "provider_margin_monthly_before": 16800.0,
+        "provider_margin_monthly_after": 19713.8,
+        "client_total_support_cost_before": 102593.75,
+        "client_total_support_cost_after": 85960.16,
+        "client_monthly_saving": 16633.59,
+        "provider_monthly_margin_gain": 2913.8,
+        "client_payback_months_on_share": 3.2,
+        "provider_payback_months_on_share": null
+      }
+    },
+    "optimistic": {
+      "scenario": "optimistic",
+      "l1_cases_per_month": 700,
+      "ai_cost_per_case_usd": 0.0836,
+      "net_freed_l1_fte": 2.79,
+      "levers_monthly": {
+        "elevation_cost_avoided": 13125.0,
+        "core_swarm_time_saved": 6004.69,
+        "l1_capacity_value_realized": 10055.21,
+        "script_incidents_avoided": 5000.0,
+        "retention_upside": 0.0
+      },
+      "run_cost_monthly": 3558.53,
+      "one_time_cost": 105000,
+      "client_net_benefit_monthly": 30626.37,
+      "client_net_benefit_annual": 367516.5,
+      "payback_months": 3.43,
+      "roi_year1_pct": 250.02,
+      "three_year_net_usd": 997549.5,
+      "fte_model": {
+        "provider_monthly_revenue": 76000,
+        "provider_monthly_margin": 22800,
+        "freed_fte_equivalent": 3.08,
+        "provider_revenue_at_risk_if_cut": 11172.46,
+        "recommended_ai_enablement_fee_monthly": 4448.0,
+        "client_net_monthly_with_fee": 29736.9,
+        "client_payback_months_on_share": 1.8,
+        "provider_monthly_gain_headcount_held": 889.47,
+        "provider_payback_months_on_share": 59.0
+      },
+      "per_case_model": {
+        "parity_price_per_case": 80.0,
+        "unit_cost_before": 56.0,
+        "unit_cost_after": 45.99,
+        "price_after_gainshare": 74.99,
+        "provider_margin_monthly_before": 16800.0,
+        "provider_margin_monthly_after": 20812.79,
+        "client_total_support_cost_before": 102593.75,
+        "client_total_support_cost_after": 81271.27,
+        "client_monthly_saving": 21322.48,
+        "provider_monthly_margin_gain": 4012.79,
+        "client_payback_months_on_share": 2.5,
+        "provider_payback_months_on_share": 115.6
+      }
+    }
+  },
+  "recommended_deal": {
+    "conservative": {
+      "scenario": "conservative",
+      "one_time_split": {
+        "client": 52500.0,
+        "provider": 52500.0
+      },
+      "fte_billing": {
+        "client_net_monthly": 4768.97,
+        "provider_net_monthly": 3301.55,
+        "client_payback_months": 11.0,
+        "provider_payback_months": 15.9,
+        "client_share_of_value_pct": 59.09
+      },
+      "per_case_billing": {
+        "price_per_case": 78.98,
+        "client_net_monthly": 6430.32,
+        "provider_net_monthly": 2137.88,
+        "client_payback_months": 8.2,
+        "provider_payback_months": 24.6,
+        "client_share_of_value_pct": 75.05
+      }
+    },
+    "base": {
+      "scenario": "base",
+      "one_time_split": {
+        "client": 52500.0,
+        "provider": 52500.0
+      },
+      "fte_billing": {
+        "client_net_monthly": 15003.4,
+        "provider_net_monthly": 5516.75,
+        "client_payback_months": 3.5,
+        "provider_payback_months": 9.5,
+        "client_share_of_value_pct": 73.12
+      },
+      "per_case_billing": {
+        "price_per_case": 78.19,
+        "client_net_monthly": 13863.46,
+        "provider_net_monthly": 5458.2,
+        "client_payback_months": 3.8,
+        "provider_payback_months": 9.6,
+        "client_share_of_value_pct": 71.75
+      }
+    },
+    "optimistic": {
+      "scenario": "optimistic",
+      "one_time_split": {
+        "client": 52500.0,
+        "provider": 52500.0
+      },
+      "fte_billing": {
+        "client_net_monthly": 23704.48,
+        "provider_net_monthly": 6921.89,
+        "client_payback_months": 2.2,
+        "provider_payback_months": 7.6,
+        "client_share_of_value_pct": 77.4
+      },
+      "per_case_billing": {
+        "price_per_case": 77.5,
+        "client_net_monthly": 18920.03,
+        "provider_net_monthly": 7853.3,
+        "client_payback_months": 2.8,
+        "provider_payback_months": 6.7,
+        "client_share_of_value_pct": 70.67
+      }
+    }
+  }
+}

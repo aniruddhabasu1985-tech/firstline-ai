@@ -1,0 +1,30 @@
+[
+ [
+  "I've looped in a senior engineer and will come back to you today.",
+  false,
+  false,
+  "Pending Customer",
+  "Pending Internal"
+ ],
+ [
+  "Once you've applied the patch, please confirm if the schedule runs.",
+  false,
+  false,
+  "Pending Customer",
+  "Pending Customer"
+ ],
+ [
+  "As you asked, we'll pause this until your change window next week.",
+  true,
+  false,
+  "Hold",
+  "Hold"
+ ],
+ [
+  "We're reproducing this in our lab.",
+  false,
+  false,
+  "Hold",
+  "Pending Internal"
+ ]
+]

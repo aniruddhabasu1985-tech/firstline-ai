@@ -1,0 +1,35 @@
+{
+  "run_at": "2026-09-27T12:01:47",
+  "metrics": {
+    "smart_routing_accuracy": 100.0,
+    "knowledge_hit_at_1": 100.0,
+    "knowledge_hit_at_3": 100.0,
+    "known_defect_detection": 100.0,
+    "novelty_detection_accuracy": 100.0,
+    "repeat_ask_precision": 100.0,
+    "repeat_ask_recall": 100.0,
+    "status_validation_accuracy": 100.0,
+    "wrong_status_caught": 100.0,
+    "log_signature_accuracy": 100.0,
+    "script_verdict_accuracy": 100.0,
+    "destructive_scripts_blocked": 100.0,
+    "compose_issue_detection": 100.0,
+    "swarm_decision_accuracy": 100.0,
+    "injection_detection_accuracy": 100.0,
+    "pii_redaction_recall": 100.0,
+    "llm_cost_per_case_usd": 0.00113,
+    "audit_chain_verified": true
+  },
+  "heldout_metrics": {
+    "smart_routing_accuracy": 83.3,
+    "knowledge_hit_at_3": 83.3,
+    "repeat_ask_accuracy": 50.0,
+    "status_validation_accuracy": 100.0,
+    "log_signature_accuracy": 100.0,
+    "script_verdict_accuracy": 100.0,
+    "compose_issue_detection": 66.7
+  },
+  "heldout_v2_script_guard_after_fail_closed_fix": 87.5,
+  "heldout_v2_destructive_blocked": 66.7,
+  "heldout_v2_destructive_auto_allowed": 0
+}

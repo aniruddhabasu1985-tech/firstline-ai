@@ -1,0 +1,24 @@
+[
+ [
+  "Kindly do the needful and revert back with the logs. PFA the steps.",
+  [
+   "non_native_phrasing"
+  ]
+ ],
+ [
+  "I hope this email finds you well! Certainly! Here are some general troubleshooting steps you can try: restart your computer, check your internet connection.",
+  [
+   "generic_ai_text"
+  ]
+ ],
+ [
+  "Thanks for sharing the Fiddler trace. It shows HTTP 407 responses from your proxy, so the client isn't authenticating to it. Could you add the server host to your proxy bypass list and try again?",
+  []
+ ],
+ [
+  "As per your email, the same is not working. We will update you.",
+  [
+   "non_native_phrasing"
+  ]
+ ]
+]

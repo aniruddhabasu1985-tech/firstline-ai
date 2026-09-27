@@ -1,0 +1,62 @@
+[
+ [
+  "jobs not running stuck queued after upgrade on premise",
+  "on_prem",
+  "KB-1001"
+ ],
+ [
+  "IM002 no default driver specified DSN",
+  "any",
+  "KB-1002"
+ ],
+ [
+  "users can't log in single sign on broke after IdP cert rotated",
+  "any",
+  "KB-1003"
+ ],
+ [
+  "desktop app very slow opening big workflow",
+  "any",
+  "KB-1004"
+ ],
+ [
+  "extract times out after 5 minutes from cloud warehouse",
+  "cloud",
+  "KB-1005"
+ ],
+ [
+  "msi install fatal error",
+  "on_prem",
+  "KB-1006"
+ ],
+ [
+  "407 proxy auth required client cannot reach server",
+  "any",
+  "KB-1007"
+ ],
+ [
+  "automated job 401 unauthorized token",
+  "cloud",
+  "KB-1008"
+ ],
+ [
+  "rows missing silently unicode column names warehouse",
+  "cloud",
+  "JIRA-4411"
+ ],
+ [
+  "worker crashes memory grows long schedule",
+  "on_prem",
+  "JIRA-4502"
+ ],
+ [
+  "TNS could not resolve connect identifier oracle",
+  "on_prem",
+  "CASE-77012"
+ ],
+ [
+  "web page blank after certificate renewal",
+  "on_prem",
+  "CASE-77340"
+ ]
+]

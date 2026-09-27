@@ -1,0 +1,18 @@
+[
+ [
+  "Get-ChildItem C:\\Temp | Remove-Item -Force",
+  "BLOCK"
+ ],
+ [
+  "find /opt/app/logs -mtime +30 -delete",
+  "BLOCK"
+ ],
+ [
+  "Stop-Service Worker; Start-Service Worker",
+  "REVIEW"
+ ],
+ [
+  "TRUNCATE TABLE staging_jobs; -- backup taken in step 1",
+  "REVIEW"
+ ]
+]
